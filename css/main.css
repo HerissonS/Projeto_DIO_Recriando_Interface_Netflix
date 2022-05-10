@@ -11,6 +11,7 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
 header .container{
@@ -21,11 +22,11 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
+.logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 header nav a{
@@ -37,4 +38,49 @@ header nav a{
 
 header nav a:hover{
     color:white
+}
+
+.serie-principal{
+    font-size: 16px;
+    background: url(/img/vikings-capa.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-bottom: auto;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
 }
