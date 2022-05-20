@@ -77,6 +77,10 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
+.botaoImg {
+    background-color: rgba(0,0,0,.50);
+}
+
 .botao:hover{
     background-color: white;
     color: black;
